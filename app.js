@@ -35,6 +35,7 @@ map.on('click', async function(e) {
     displayNews(newsArticles);
 });
 
+
 function displayNews(articles) {
     // Clear existing news
     let newsDiv = document.getElementById('news');
