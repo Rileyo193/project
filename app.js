@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 async function getNews(countryCode) {
-    const apiKey = 'e9af0bbad4c2499180bd38fde03c8ec0';
+    const apiKey = 'e9-XXXXXX';
     const url = `https://newsapi.org/v2/top-headlines?country=${countryCode}&apiKey=${apiKey}`;
 
     
